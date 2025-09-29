@@ -1,4 +1,5 @@
-#test
+import pandas as pd
 
-#testing Amin 123
+df = pd.read_excel("Datasets/test.xlsx")
 
+df.info()
